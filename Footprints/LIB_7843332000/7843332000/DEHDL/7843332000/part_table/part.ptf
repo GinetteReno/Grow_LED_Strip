@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '7843332000'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "7843332000" (!) = "", "7843332000", "Other", "", "", "Fixed Inductors WE-CHSA 20uH 4.3A 60.90mOhms", "https://www.we-online.com/katalog/datasheet/7843332000.pdf", "11.3 mm"
+END_PART
+
+END.

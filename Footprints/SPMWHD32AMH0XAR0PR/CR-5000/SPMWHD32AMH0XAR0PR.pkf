@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SPMWHD32AMH0XAR0PR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SPMWHD32AMH0XAR0PR")
+        (spec "default")
+    )
+)

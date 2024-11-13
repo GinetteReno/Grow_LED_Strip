@@ -1,0 +1,9 @@
+Manufacturer=SAMSUNG
+PartNumber=SPMWHD32AMH0XAR0PR
+PartCategory=LED
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2023-10-31 12:46:20
+Downloaded=2024-11-09 22:45:06
+3D=Y

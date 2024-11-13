@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SPMWHD32AMH0XAR0PR
+D High Power LED
+K
+F https://download.led.samsung.com/led/file/resource/2022/05/Data_Sheet_LM301H_EVO_Rev.2.1.pdf
+$ENDCMP
+#
+#End Doc Library

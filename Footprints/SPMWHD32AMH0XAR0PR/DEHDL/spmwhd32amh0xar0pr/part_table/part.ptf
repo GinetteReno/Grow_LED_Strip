@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SPMWHD32AMH0XAR0PR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SAMSUNG", "SPMWHD32AMH0XAR0PR" (!) = "", "SPMWHD32AMH0XAR0PR", "Other", "", "", "SPMWHD32AMH0XAR0PR", "https://www.arrow.com/en/products/spmwhd32amh0xar0pr/samsung-electronics?region=nac", "High Power LED", "https://download.led.samsung.com/led/file/resource/2022/05/Data_Sheet_LM301H_EVO_Rev.2.1.pdf", "0.8 mm"
+END_PART
+
+END.

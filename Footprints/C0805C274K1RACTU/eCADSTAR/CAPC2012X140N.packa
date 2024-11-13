@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C0805C274K1RACTU"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-08-14-11:28:44)
+    (mountForm default
+        (footprintRef "CAPC2012X140N")
+        (spec "System")
+    )
+)

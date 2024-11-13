@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SPMWHD32AMH0XAR0PR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-10-31-12:46:20)
+    (mountForm default
+        (footprintRef "SPMWHD32AMH0XAR0PR")
+        (spec "System")
+    )
+)

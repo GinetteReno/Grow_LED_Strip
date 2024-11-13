@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX25603AUI_V+
+D Automotive Four-Switch Buck-Boost LED Controller for Combination Head Lights
+K
+F https://www.analog.com/MAX25603/datasheet
+$ENDCMP
+#
+#End Doc Library

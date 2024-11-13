@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 7843332000
+D Fixed Inductors WE-CHSA 20uH 4.3A 60.90mOhms
+K
+F https://www.we-online.com/katalog/datasheet/7843332000.pdf
+$ENDCMP
+#
+#End Doc Library

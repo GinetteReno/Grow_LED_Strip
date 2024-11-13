@@ -4569,7 +4569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.884 24.384 90)
 			(effects
 				(font
@@ -4637,7 +4637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 24.13 36.576 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 143.256 113.284 90)
 			(effects
 				(font
@@ -4975,7 +4975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CAPC2012X140N"
 			(at 54.61 77.47 0)
 			(effects
 				(font
@@ -5112,7 +5112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPMWHD32AMH0XAR0PR"
+		(property "Footprint" "LED_SMD:SPMWHD32AMH0XAR0PR"
 			(at 224.79 52.4 0)
 			(effects
 				(font
@@ -5260,7 +5260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 56.134 104.394 90)
 			(effects
 				(font
@@ -5331,7 +5331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPMWHD32AMH0XAR0PR"
+		(property "Footprint" "LED_SMD:SPMWHD32AMH0XAR0PR"
 			(at 224.79 -6.02 0)
 			(effects
 				(font
@@ -5479,7 +5479,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Vishay_TS53YJ_Vertical"
 			(at 88.9 36.83 0)
 			(effects
 				(font
@@ -5618,7 +5618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 28.956 105.664 90)
 			(effects
 				(font
@@ -6017,7 +6017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 209.296 31.496 90)
 			(effects
 				(font
@@ -6305,7 +6305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 206.756 31.496 90)
 			(effects
 				(font
@@ -6376,7 +6376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPMWHD32AMH0XAR0PR"
+		(property "Footprint" "LED_SMD:SPMWHD32AMH0XAR0PR"
 			(at 224.79 -33.96 0)
 			(effects
 				(font
@@ -6594,7 +6594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPMWHD32AMH0XAR0PR"
+		(property "Footprint" "LED_SMD:SPMWHD32AMH0XAR0PR"
 			(at 224.79 -19.99 0)
 			(effects
 				(font
@@ -6740,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 61.976 113.284 90)
 			(effects
 				(font
@@ -6877,7 +6877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPMWHD32AMH0XAR0PR"
+		(property "Footprint" "LED_SMD:SPMWHD32AMH0XAR0PR"
 			(at 224.79 24.46 0)
 			(effects
 				(font
@@ -7024,7 +7024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 25.146 105.664 90)
 			(effects
 				(font
@@ -7091,7 +7091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 61.976 112.776 90)
 			(effects
 				(font
@@ -7161,7 +7161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CAPC2012X140N"
 			(at 54.61 92.71 0)
 			(effects
 				(font
@@ -7229,7 +7229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD_Wurth:7843332000"
 			(at 166.37 50.8 0)
 			(effects
 				(font
@@ -7296,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X110-29N"
+		(property "Footprint" "LED_SMD:SOP65P640X110-29N"
 			(at 97.79 162.23 0)
 			(effects
 				(font
@@ -7656,7 +7656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPMWHD32AMH0XAR0PR"
+		(property "Footprint" "LED_SMD:SPMWHD32AMH0XAR0PR"
 			(at 224.79 -47.93 0)
 			(effects
 				(font
@@ -8042,7 +8042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPMWHD32AMH0XAR0PR"
+		(property "Footprint" "LED_SMD:SPMWHD32AMH0XAR0PR"
 			(at 224.79 10.49 0)
 			(effects
 				(font
@@ -8390,7 +8390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CAPC2012X140N"
 			(at 35.56 35.56 0)
 			(effects
 				(font
@@ -8527,7 +8527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPMWHD32AMH0XAR0PR"
+		(property "Footprint" "LED_SMD:SPMWHD32AMH0XAR0PR"
 			(at 224.79 38.43 0)
 			(effects
 				(font

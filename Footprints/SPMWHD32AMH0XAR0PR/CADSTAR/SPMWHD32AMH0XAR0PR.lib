@@ -1,0 +1,18 @@
+.SPMWHD32AMH0XAR0PR :1 ;High Power LED
+SPMWHD32AMH0XAR0PR
+*STM LED
+*NGS
+*PLB 1="K_1" 2="A_1" 3="K_2" 4="A_2"
+*MXP 4
+*DFN SPMWHD32AMH0XAR0PR
+~!Manufacturer_Name (SAMSUNG)
+~!Manufacturer_Part_Number (SPMWHD32AMH0XAR0PR)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (SPMWHD32AMH0XAR0PR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/spmwhd32amh0xar0pr/samsung-electronics?region=nac)
+~!Link Datasheet (https://download.led.samsung.com/led/file/resource/2022/05/Data_Sheet_LM301H_EVO_Rev.2.1.pdf)
+~!Height (0.8mm)
+~!3D_Model (SPMWHD32AMH0XAR0PR)
+SPMWHD32AMH0XAR0PR
+1.1!U 2.1!U 3.1!U 4.1!U 

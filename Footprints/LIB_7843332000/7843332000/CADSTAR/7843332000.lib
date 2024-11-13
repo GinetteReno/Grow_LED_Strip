@@ -1,0 +1,16 @@
+.7843332000 :1 ;Fixed Inductors WE-CHSA 20uH 4.3A 60.90mOhms
+"7843332000"
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 7843332000
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (7843332000)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.we-online.com/katalog/datasheet/7843332000.pdf)
+~!Height (11.3mm)
+~!3D_Model (7843332000)
+"7843332000"
+1.1!U 2.1!U 

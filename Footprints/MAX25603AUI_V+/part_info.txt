@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=MAX25603AUI/V+
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=29
+Version=4.1
+Released=2022-01-25 06:28:52
+Downloaded=2024-11-10 00:05:54
+3D=Y

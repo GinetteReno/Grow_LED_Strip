@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=7843332000
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2022-02-05 03:44:26
+Downloaded=2024-11-13 06:47:40
+3D=Y

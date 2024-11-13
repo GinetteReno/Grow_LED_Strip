@@ -1,0 +1,18 @@
+.MAX25603AUI_V-plus- :1 ;Automotive Four-Switch Buck-Boost LED Controller for Combination Head Lights
+SOP65P640X110-29N
+*STM IC
+*NGS
+*PLB 1="IN" 2="INP" 3="INN" 4="BST1" 5="DH1" 6="LX1" 7="DL1" 8="PGND" 9="DL2" 10="LX2" 11="DH2" 12="BST2" 13="CSP" 14="CSN" 15="ISP" 16="ISN" 17="GTP2" 18="GTP1" 19="FB" 20="'FLT'" 21="COMP1" 22="COMP2" 23="SGND" 24="VCC" 25="ICTRL" 26="SHUNT" 27="EN1" 28="EN2" 29="EP"
+*MXP 29
+*DFN MAX25603AUI_V-plus-
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (MAX25603AUI/V+)
+~!Mouser Part Number (700-MAX25603AUI/V+)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX25603AUI-V%2b?qs=doiCPypUmgFX06DpQbFwEw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.analog.com/MAX25603/datasheet)
+~!Height (1.1mm)
+~!3D_Model (MAX25603AUI_V+)
+MAX25603AUI_V-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 
