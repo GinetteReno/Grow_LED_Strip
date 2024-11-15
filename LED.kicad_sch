@@ -5,22 +5,21 @@
 	(uuid "32d3556f-0ba2-4df7-ba8f-8eee3274fc45")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack"
+		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.334 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Barrel_Jack"
+			(property "Value" "Screw_Terminal_01x02"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -29,7 +28,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.27 -1.016 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,15 +37,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "DC power barrel jack connector"
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "BarrelJack*"
+			(property "ki_keywords" "screw terminal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,10 +63,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Barrel_Jack_0_1"
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
 				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -85,36 +84,11 @@
 						(type background)
 					)
 				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -123,33 +97,67 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-			)
-			(symbol "Barrel_Jack_1_1"
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -165,9 +173,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2924,6 +2932,12 @@
 		(uuid "ad1b169d-0769-47e6-89e4-1453a8c5ea20")
 	)
 	(junction
+		(at 50.8 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0e05337-c2b4-4f10-9514-677fc3502fbe")
+	)
+	(junction
 		(at 54.61 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3170,6 +3184,16 @@
 			(type default)
 		)
 		(uuid "1157f0f7-919b-4685-b463-0c58882093d9")
+	)
+	(wire
+		(pts
+			(xy 30.48 35.56) (xy 30.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c63b02-c55f-4e6a-a08d-206ef685ada2")
 	)
 	(wire
 		(pts
@@ -3423,7 +3447,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 33.02) (xy 71.12 33.02)
+			(xy 35.56 33.02) (xy 50.8 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3810,6 +3834,16 @@
 			(type default)
 		)
 		(uuid "73216036-2512-4426-9ce4-c553e08d358d")
+	)
+	(wire
+		(pts
+			(xy 50.8 33.02) (xy 71.12 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75165bb8-3ffa-4d11-b766-b2eac9dac9f3")
 	)
 	(wire
 		(pts
@@ -4383,6 +4417,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 38.1) (xy 50.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2836bff-6546-435b-843d-353f5658a84b")
+	)
+	(wire
+		(pts
 			(xy 205.74 60.96) (xy 205.74 58.42)
 		)
 		(stroke
@@ -4606,74 +4650,6 @@
 			(project ""
 				(path "/32d3556f-0ba2-4df7-ba8f-8eee3274fc45"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack")
-		(at 22.86 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a97c6b7-b5de-43ef-8e90-aa7fe313d316")
-		(property "Reference" "J1"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack"
-			(at 22.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 24.13 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack"
-			(at 22.86 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d6fa2886-6036-4af0-be58-b6d3195a6d2a")
-		)
-		(pin "1"
-			(uuid "e2984c25-6f9a-439c-8f7f-8a7de07c8168")
-		)
-		(instances
-			(project ""
-				(path "/32d3556f-0ba2-4df7-ba8f-8eee3274fc45"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6523,7 +6499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rdparty:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 105.1052 124.46 0)
 			(effects
 				(font
@@ -6740,7 +6716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 61.976 113.284 90)
 			(effects
 				(font
@@ -7091,7 +7067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 61.976 112.776 90)
 			(effects
 				(font
@@ -7948,6 +7924,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 25.4 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2a15c66-a8cc-48e0-a032-34bc08e75077")
+		(property "Reference" "J1"
+			(at 25.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal"
+			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05f9882b-07cb-4cf6-afa3-00964df4f322")
+		)
+		(pin "2"
+			(uuid "b33077fd-9623-4e46-845e-e8bb9e6ccd43")
+		)
+		(instances
+			(project ""
+				(path "/32d3556f-0ba2-4df7-ba8f-8eee3274fc45"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 43.18 0)
 		(unit 1)
@@ -8365,6 +8409,75 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 50.8 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deab4493-c291-41be-917e-65f665d7810f")
+		(property "Reference" "C7"
+			(at 53.34 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68uF"
+			(at 53.34 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27a5caca-47bc-4d2a-8422-3ab060ffd897")
+		)
+		(pin "2"
+			(uuid "d2638aa2-add6-42f9-9323-2c66cfe24e56")
+		)
+		(instances
+			(project "LED"
+				(path "/32d3556f-0ba2-4df7-ba8f-8eee3274fc45"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 35.56 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8381,8 +8494,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 38.1 37.846 0)
+		(property "Value" "1uF"
+			(at 38.1 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
